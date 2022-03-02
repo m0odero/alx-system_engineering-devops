@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | sed 's/\n/, /g;s/,$/\n/'
+ls -amp
