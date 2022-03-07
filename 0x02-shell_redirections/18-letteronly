@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/ssh/sshid_config | grep ^[Aa-Zz]
+cat /etc/ssh/sshid_config | grep ^[[:alpha:]]
